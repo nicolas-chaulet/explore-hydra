@@ -1,0 +1,5 @@
+experiment:
+  task: segmentation
+  model: pn
+
+models: ${experiment.task}/${experiment.pn}

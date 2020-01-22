@@ -1,0 +1,7 @@
+defaults:
+    - task: ???
+      optional: True
+    - model: ???
+      optional: True
+    - models: ${defaults.0.task}/${defaults.1.model}
+    - hydra/job_logging: custom
